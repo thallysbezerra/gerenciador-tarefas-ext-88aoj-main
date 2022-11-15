@@ -1,6 +1,6 @@
 @import './config.scss';
 
-.container-login{
+.container-cadastrar-usuario{
 
     .logo{
         width: 178.35px;
@@ -15,6 +15,10 @@
             color: $errorColor;
             font-weight: bold;
             max-width: 300px;
+
+            &.message-success {
+                color: $successColor;
+            }
         }
 
         div{
